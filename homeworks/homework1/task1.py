@@ -3,20 +3,20 @@ number=str(input())
 n=(int(number))
 c=int(number[len(number)-1])
 d=int(number[len(number)-2])
-if word=='óòşã':
+if word=='ÑƒÑ‚ÑĞ³':
     if n==1 or c==1 and d!=1:
-        print(n, "óòşã")
+        print(n, "ÑƒÑ‚ÑĞ³")
     elif 2<=n<=4 or 2<=c<=4 and d!=1:
-        print(n, "óòşãà")
+        print(n, "ÑƒÑ‚ÑĞ³Ğ°")
     else:
-        print(n, "óòşãîâ")
-if word=='ëîæêà':
+        print(n, "ÑƒÑ‚ÑĞ³Ğ¾Ğ²")
+if word=='Ğ»Ğ¾Ğ¶ĞºĞ°':
     if n==1 or c==1 and d!=1:
-        print(n, "ëîæêà")
+        print(n, "Ğ»Ğ¾Ğ¶ĞºĞ°")
     elif 2<=n<=4 or 2<=c<=4 and d!=1:
-        print(n, "ëîæêè")
+        print(n, "Ğ»Ğ¾Ğ¶ĞºĞ¸")
     else:
-        print(n, "ëîæåê")
+        print(n, "Ğ»Ğ¾Ğ¶ĞµĞº")
 
 
 
