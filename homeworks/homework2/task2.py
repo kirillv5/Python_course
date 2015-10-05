@@ -7,7 +7,7 @@ while len(list_k) != n:
     
 def prime(k):
     if k in range(4):
-        return(True)
+        return True
     else:
         i = 2
         n = []
@@ -15,8 +15,8 @@ def prime(k):
             n.append(k % i)
             i += 1        
         if 0 in n:
-            return(False)
+            return False
         else:
-            return(True)
+            return True
 for k in list_k:
     print(prime(k))
