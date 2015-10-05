@@ -1,8 +1,10 @@
 n, k = (int(i) for i in input().split())
+
+
 def combination(n, k):
     def factorial(x):
         c = 1
-        lst = [i for i in range(1, x+1)]
+        lst = [i for i in range(1, x + 1)]
         for i in lst:
             c *= i
         return(c)
