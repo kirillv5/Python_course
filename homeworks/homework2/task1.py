@@ -13,5 +13,5 @@ def combination(n, k):
     elif n == k or k == 0:
         return 1
     else:
-        return(factorial(n) / (factorial(k) * factorial(n - k)))
+        return factorial(n) / (factorial(k) * factorial(n - k))
 print(int(combination(n, k))) 
