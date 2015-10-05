@@ -1,4 +1,6 @@
 lst_output = []
+
+
 def rpfilter(a, *arg):
     def euclid(n, m):
         if n % m == 0:
