@@ -3,6 +3,8 @@ list_k = []
 while len(list_k) != n:
     i = int(input())
     list_k.append(i)
+    
+    
 def prime(k):
     if k in range(4):
         return(True)
