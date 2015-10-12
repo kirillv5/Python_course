@@ -23,4 +23,4 @@ def plural(n, words):
         return number + " " + words[2]
 out = [i for i in plural(n, words).split()]
 for i in out:
-    print(i, end = " ")
+    print(i, end=" ")
