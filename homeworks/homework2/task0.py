@@ -16,11 +16,9 @@ elif word == 'чайник':
     
 def plural(n, words):
     if n == 1 or c == 1 and d != 1:
-        return number + " " + words[0]
+        return words[0]
     elif 2 <= n <= 4 or 2 <= c <= 4 and d != 1:
-        return number + " " + words[1]
+        return words[1]
     else:
-        return number + " " + words[2]
-out = [i for i in plural(n, words).split()]
-for i in out:
-    print(i, end=" ")
+        return words[2]
+print (n, plural(n, words))
