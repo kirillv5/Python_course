@@ -11,5 +11,5 @@ for i in range(len(sent)):
         if "yo" in j[len(j) - 2:]:
             of.write(j + " ")
     of.write("\n")
-    i+=1
+    i += 1
 of.close()
