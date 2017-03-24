@@ -1,3 +1,3 @@
-# Python_course
+# R bio
 
 Vasilev Kirill
